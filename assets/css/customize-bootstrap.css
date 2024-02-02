@@ -1,0 +1,14 @@
+.accordion-button {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--black-color);
+    background-color: transparent;
+}
+
+.footer-form-control {
+    border-radius: 0 !important;
+}

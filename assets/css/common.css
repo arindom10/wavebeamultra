@@ -1,0 +1,244 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0 !important;
+}
+
+:root {
+    --primary-color: #FFC32E;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --background-color: #242424;
+    --gray-color: rgba(255, 255, 255, .75);
+}
+
+.primary-color {
+    color: #FFC32E;
+}
+
+.white-color {
+    color: #FFFFFF;
+}
+
+.black-color {
+    color: #000000;
+}
+
+.background-color {
+    color: #242424;
+}
+
+.gray-color {
+    color: rgba(255, 255, 255, .75);
+}
+
+.ch1 {
+    font-size: 120px;
+    line-height: 132px;
+}
+
+.ch2 {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.ch3 {
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.ch4 {
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.ch5 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.ch6 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.ch7 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.ch7-sp {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.ch8 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ch9 {
+    font-size: 12px;
+    line-height: 14 px;
+}
+
+.cmn-pt {
+    padding-top: 95px;
+}
+
+.cmn-pb {
+    padding-bottom: 95px;
+}
+
+.cmn-mt {
+    margin-top: 95px;
+}
+
+.cmn-mb {
+    margin-bottom: 95px;
+}
+
+.cmn-mb-2 {
+    margin-bottom: 95px;
+}
+
+.sec-cmn-pt {
+    padding-top: 200px;
+}
+
+.sec-cmn-pb {
+    padding-bottom: 200px;
+}
+
+.sec-cmn-py {
+    padding: 200px 0;
+}
+
+.sec-cmn-mt {
+    margin-top: 200px;
+}
+
+.sec-cmn-mb {
+    margin-bottom: 200px;
+}
+
+.cfw-1 {
+    font-weight: 100;
+}
+
+.cfw-2 {
+    font-weight: 200;
+}
+
+.cfw-3 {
+    font-weight: 300;
+}
+
+.cfw-4 {
+    font-weight: 400;
+}
+
+.cfw-5 {
+    font-weight: 500;
+}
+
+.cfw-6 {
+    font-weight: 600;
+}
+
+.cfw-7 {
+    font-weight: 700;
+}
+
+.cfw-8 {
+    font-weight: 800;
+}
+
+.cfw-9 {
+    font-weight: 900;
+}
+
+.cmn-btn-1 {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: 1px solid var(--primary-color);
+    transition: background 0.5s color 0.3s;
+}
+
+.cmn-btn-1:hover {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.cmn-btn-2 {
+    width: 100%;
+    border: 0;
+    background-color: var(--primary-color);
+    padding: 8px 0;
+    color: var(--white-color);
+}
+
+.cmn-btn-3 {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+}
+
+.cmn-btn-3:hover {
+    color: var(--white-color);
+}
+
+.place-order-btn {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: var(--background-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0;
+}

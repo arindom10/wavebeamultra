@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .whatsapp{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+  </style>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="kyword" content="" />
+    <meta name="description" content="" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- owl-carousel  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- swipper js -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/customize-bootstrap.css" />
+
+    <title>Shop</title>
+  </head>
+
+  <body>
+    <header class="full-header">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="left-side">
+            <a href="index.html" class="logo-container">
+              <img class="site-logo" src="./assets/images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="middle-side">
+            <ul class="d-flex align-items-center all-li-link">
+              <li class="custom-nav-link">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="custom-nav-link">
+                <a href="about.html">About us</a>
+              </li>
+              <li class="custom-nav-link">
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li class="custom-nav-link">
+                <a href="shop.html">Shop</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right-side">
+            <button
+              class="shopping-cart"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <img src="./assets/images/bag.svg" alt="shopping bag" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="whatsapp">
+        <a href="https://wa.me/message/5JMWDOLCXDWYO1" target="_blank">
+          <img src="./assets/images/whatsapp.png" width="50" alt="">
+      </div>
+    </header>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h3 id="offcanvasRightLabel ch4 cfw-7 black-color">Your Cart</h3>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="discount-cart"></div>
+        <div class="product-card p-3">
+          <div class="row">
+            <div class="col-3">
+              <img src="./assets/images/cart-img.jpg" alt="" />
+            </div>
+            <div class="col-7">
+              <p class="ch7 cfw-6 black-color">
+                WaveBeamUltra Motion Sensor LED Headlamp
+              </p>
+            </div>
+            <div class="col-2 d-flex justify-content-center align-items-center">
+              <button class="dlt-btn">
+                <img src="./assets/images/trash.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end align-items-end">
+            <h5 class="ch6 cfw-7 black-color">€ 95</h5>
+          </div>
+          <div class="d-flex justify-content-center align-items-center mt-3">
+            <div class="increase-decrease-quantity d-flex align-items-center">
+              <button class="plus-minus-btn" id="shop-minus-cart">-</button>
+              <p class="mx-3 ch5 cfw-7" id="shop-quantity-cart">1</p>
+              <button class="plus-minus-btn" id="shop-plus-cart">+</button>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-between align-items-center mt-4 mb-5"
+          >
+            <h3 class="ch5 cfw-7 black-color">Total:</h3>
+            <h3 class="ch5 cfw-7 black-color" id="total-text-cart">€ 0</h3>
+          </div>
+          <a href="chackout.html" class="cmn-btn-3">Proceed Chackout</a>
+          <h2 class="text-center mt-4 ch5 cfw-7 free-shipping">
+            Free Shipping
+          </h2>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="contact-us-section my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img
+                class="w-100 h-auto"
+                src="./assets/images/cart-img.jpg"
+                alt=""
+              />
+              <div class="d-flex align-items-center slider-all-img">
+                <img src="./assets/images/slider-2.png" alt="" />
+                <img src="./assets/images/slider-3.png" alt="" />
+                <img src="./assets/images/slider-4.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 shop-deatils">
+              <h2>WaveBeamUltra Motion Sensor LED Headlamp</h2>
+              <div class="d-flex align-items-center py-3">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="d-flex align-items-center">
+                <h3 class="ch5 cfw-7 black-color">€ 95</h3>
+              </div>
+              <p class="cfw-7 ch6 mt-3">
+                "This headlamp has made tasks in low lit settings conveniently
+                10X faster for me, where has this headlamp been all my life!"
+                <br />
+              </p>
+              <div class="accordion mt-4" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Description:
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Get ready to see the dark in a whole new light with the
+                      WaveBeamulta. Our <span class="cfw-7">versatile</span> and
+                      <span class="cfw-7">lightweight headlamp</span> offers a
+                      <span class="cfw-7">wide-angle beam</span>, providing
+                      maximum illumination and a
+                      <span class="cfw-7">hands-free motion sensor</span
+                      >hands-free motion sensor feature for
+                      <span class="cfw-7">safety</span> and
+                      <span class="cfw-7">convenience</span> for a variety of
+                      nighttime activities.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Specification:
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>Weight:</strong> 100gMaximum <br />
+                      <strong>Luman:</strong> 350 lumRadiation <br />
+                      <strong> Area:</strong> > 50 square <br />
+                      <strong>metePower:</strong> 10<br />
+                      <strong>wLamps:</strong> COB + XPE<br />
+                      <strong>Battery:</strong> Rechargeable 1200mAh lithium
+                      battery Charging <br />
+                      <strong>method:</strong> USB Type C5 Light <br />
+                      <strong> Modes:</strong> COB High→COB Low→XPE High→XPE
+                      LowCharging <br /><strong>time:</strong> 90min<br />
+                      <strong>Waterproofing:</strong> IPX4Operating <br />
+                      <strong>time:</strong> 4-8h<br />
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Shipping:
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Estimated Delivery:
+                      <span class="cfw-7">6-12 business days</span> Most orders
+                      are dispatched within 1 business day. If we are
+                      experiencing high order volumes, it may take up to 3
+                      business days for dispatch. We strive to do everything we
+                      can to fulfill all orders in a timely manner.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-4 row-cols-2 mt-4">
+                <div class="col">
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="point-img"
+                      src="./assets/images/wide.png"
+                      alt=""
+                    />
+                    <h4 class="ms-2 cfw-7">230° Wide Angle LED</h4>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="point-img"
+                      src="./assets/images/water.png"
+                      alt=""
+                    />
+                    <h4 class="ms-2 cfw-7">IPX4 Water Proof</h4>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="point-img"
+                      src="./assets/images/recharge.png"
+                      alt=""
+                    />
+                    <h4 class="ms-2 cfw-7">Recharge Via USB-C</h4>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="point-img"
+                      src="./assets/images/wave.png"
+                      alt=""
+                    />
+                    <h4 class="ms-2 cfw-7">On/Off Wave Sensor</h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center mt-4"
+              >
+                <h4 class="mb-3">Quantity</h4>
+                <div
+                  class="increase-decrease-quantity d-flex align-items-center"
+                >
+                  <button class="plus-minus-btn" id="shop-minus">-</button>
+                  <p class="mx-3 ch5 cfw-7" id="shop-quantity">1</p>
+                  <button class="plus-minus-btn" id="shop-plus">+</button>
+                </div>
+              </div>
+              <div class="mt-4">
+                <a href="#" class="cmn-btn-3" id="add-to-cart-button"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- branding section -->
+      <section class="branding-point">
+        <div class="container">
+          <div class="row row-cols-lg-4">
+            <div
+              class="branding-single-point d-flex flex-column align-items-center"
+            >
+              <img src="./assets/images/thumb.png" alt="" />
+              <h3 class="ch6 cfw-7 background-color text-center">
+                Satisfied WaveBeamUltra Customers
+              </h3>
+              <p class="ch8 cfw-4 black-color text-center">
+                We are happy we can help our customers see clearer and work
+                hands-free in the dark, are you next?
+              </p>
+            </div>
+            <div
+              class="branding-single-point d-flex flex-column align-items-center"
+            >
+              <img src="./assets/images/Mic.png" alt="" />
+              <h3 class="ch6 cfw-7 background-color text-center">
+                24/7 Customer Support
+              </h3>
+              <p class="ch8 cfw-4 black-color text-center">
+                Have any questions or concerns? Feel free to reach out to our
+                support team at support@wavebeamultra.com
+              </p>
+            </div>
+            <div
+              class="branding-single-point d-flex flex-column align-items-center"
+            >
+              <img src="./assets/images/shield.png" alt="" />
+              <h3 class="ch6 cfw-7 background-color text-center">
+                1 Year Warranty
+              </h3>
+              <p class="ch8 cfw-4 black-color text-center">
+                WaveBeamUltra will provide warranty coverage for up to one year
+                after receiving your order.
+              </p>
+            </div>
+            <div
+              class="branding-single-point d-flex flex-column align-items-center"
+            >
+              <img src="./assets/images/hand.png" alt="" />
+              <h3 class="ch6 cfw-7 background-color text-center">
+                30-Day Money-Back Guarantee
+              </h3>
+              <p class="ch8 cfw-4 black-color text-center">
+                Refunds are guaranteed within 30 days after receiving your
+                order.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-3 d-flex justify-content-center align-items-center"
+          >
+            <div class="footer-logo-container">
+              <img class="footer-logo" src="./assets/images/logo.png" alt="" />
+              <p class="white-color">
+                🏢 7 Middlesex Street, London, England, E1 7AA 🏠 House 1/F,
+                Road 02, Shafayet Road, Block C, Bashundhara R/A, Dhaka 1229 
+                (office address bd) 📞 +447481688857 📞 +8801855341112
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h2 class="ch5 cfw-7 white-color mb-3 text-uppercase">Main menu</h2>
+            <ul class="footer-link">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="shop.html">Shop</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h2 class="ch5 cfw-7 white-color mb-3 text-uppercase">
+              OUR POLICIES
+            </h2>
+            <ul class="footer-link">
+              <li>
+                <a href="refund.html">Refund Policy</a>
+              </li>
+              <li>
+                <a href="shipping-policy.html">Shipping Policy</a>
+              </li>
+              <li>
+                <a href="privacy-policy.html">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="terms-condition.html">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center">
+            <div class="footer-right d-flex flex-column align-items-center">
+              <h2 class="ch5 cfw-7 white-color mb-3 text-uppercase">
+                Main menu
+              </h2>
+              <p class="mb-3">
+                Sign up for exclusive content, special prizes, and latest update
+              </p>
+              <form>
+                <div>
+                  <input
+                    type="email"
+                    class="form-control footer-form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <button type="submit" class="cmn-btn-2">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jquery -->
+    <script src="./assets/js/jquery.min.js"></script>
+
+    <!-- owl carusel js  -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+
+    <!-- swipper js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- custom javascript -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./cart.js"></script>
+  </body>
+</html>
